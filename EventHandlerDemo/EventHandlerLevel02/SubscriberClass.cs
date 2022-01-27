@@ -8,19 +8,21 @@ namespace EventHandlerLevel02
 {
     internal class SubscriberClass
     {
+        
         PublisherClass pub = null;
         public SubscriberClass()
         {
-            SumClass sum = new SumClass();
-            SubClass sub = new SubClass();
-            MulClass mul = new MulClass();
-            DivClass div = new DivClass();
+            SumClass sum = new SumClass();  //Create a object for subscription
+            SubClass sub = new SubClass();  //Create a object for subscription
+            MulClass mul = new MulClass();  //Create a object for subscription
+            DivClass div = new DivClass();  //Create a object for subscription
 
-            pub = new PublisherClass();
-            pub.NumberCalc += sum.Sum;
-            pub.NumberCalc += sub.Sub;
-            pub.NumberCalc += mul.Mul;
-            pub.NumberCalc += div.Div;
+
+            pub = new PublisherClass();     //Create object of Publisher class.
+            pub.NumberCalc += sum.Sum;      //Subcription with publisher event
+            pub.NumberCalc += sub.Sub;      //Subcription with publisher event
+            pub.NumberCalc += mul.Mul;      //Subcription with publisher event
+            pub.NumberCalc += div.Div;      //Subcription with publisher event
         }
         public void MyHandler(int a,int b)
         {
