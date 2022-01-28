@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("EventHandlerLevel03")]
+[assembly: AssemblyTitle("EventHandlerLevel05")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("EventHandlerLevel03")]
+[assembly: AssemblyProduct("EventHandlerLevel05")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("69a18980-0eb4-4df0-93dc-c947c29f2f1a")]
+[assembly: Guid("0d792032-7140-40ab-a3dd-a1496e864dae")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace EventHandlerLevel03
 {
-    internal class Program
+    internal class CustomArgs:EventArgs
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("hello");
-        }
+        public string Name { get; set; }
+        public int Age { get; set; }
     }
 }
